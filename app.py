@@ -13,7 +13,7 @@ def Index():
 def summarize():
     if req.method == "POST":
         API_URL = "https://api-inference.huggingface.co/models/sshleifer/distilbart-cnn-12-6"
-        headers = {"Authorization": f"Bearer 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"}
+        headers = {"Authorization": f"Bearer [api_key]"}
         
         data = req.form["input_data"]
 
